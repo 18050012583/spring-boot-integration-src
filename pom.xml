@@ -7,6 +7,7 @@
     <version>1.0.0</version>
     <name>spring-boot-integration</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <properties>
         <java.version>11</java.version>
@@ -16,10 +17,13 @@
     </dependencies>
 
     <modules>
+        <module>spring-boot-data-elasticsearch</module>
         <module>spring-boot-data-jpa</module>
+        <module>spring-boot-data-mongo</module>
         <module>spring-boot-data-mybatis</module>
         <module>spring-boot-data-redis</module>
-        <module>spring-boot-rabbitmq</module>
+        <module>spring-boot-amqp-rabbitmq</module>
+        <module>spring-boot-amqp-kafka</module>
     </modules>
 
     <build>

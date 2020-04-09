@@ -1,0 +1,8 @@
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.137.5:9300 #配置java访问elasticsearch端口
+      cluster-name: elasticsearch #需与elasticsearch配置文件的名字一致，也可以不配置
+      repositories:
+        enabled: true
